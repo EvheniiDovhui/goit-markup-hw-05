@@ -562,7 +562,7 @@ button {
 
 .social-media-subtitle {
   margin-bottom: 16px;
-  color: var(--white, #fff);
+  color: var(--WHITE);
 
   font-size: 16px;
   font-weight: 500;
@@ -611,6 +611,7 @@ button {
   gap: 24px;
 }
 .subsckribe-form-input {
+  color: var(--WHITE);
   width: 264px;
   height: 40px;
   border-radius: 4px;
@@ -634,18 +635,25 @@ button {
   color: currentColor;
 }
 .footer-button {
+  color: var(--WHITE);
   display: inline-flex;
   justify-content: center;
   margin: 0;
   align-items: center;
   min-width: 165px;
+  height: 40px;
   gap: 16px;
   padding: 8px 24px;
-  color: var(--primary-white-color);
   text-align: center;
   font-weight: 500;
+  background-color: var(--Iris);
   line-height: var(--primary-line-height);
   letter-spacing: 0.04em;
+  border: none;
+  border-radius: 4px;
+}
+.footer-button:focus {
+  background-color: var(--OCEAN);
 }
 
 .footer-button-icon {
